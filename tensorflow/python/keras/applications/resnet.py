@@ -474,7 +474,7 @@ def ResNet50(include_top=True,
 
 @keras_export('keras.applications.resnet.ResNet101',
               'keras.applications.ResNet101')
-def ResNet101(include_top=True,....., classes=1000, **kwargs):
+def ResNet101(include_top=True,..., classes=1000, **kwargs):
   """Instantiates the ResNet101 architecture."""
 
   def stack_fn(x):
